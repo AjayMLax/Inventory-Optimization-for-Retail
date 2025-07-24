@@ -1,6 +1,6 @@
 # Inventory-Optimization-for-Retail
 
-Forecast and optimize product inventory using average demand estimation and constrained cost-minimization modeling with Gurobi, incorporating real-world supply chain constraints.
+Forecast and optimize product inventory using average demand estimation and constrained cost-minimization modelling with Gurobi, incorporating real-world supply chain constraints.
 
 ## Table Of Contents
 - [Description](#description)
