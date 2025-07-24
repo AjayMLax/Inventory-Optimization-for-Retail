@@ -29,7 +29,7 @@ This project involves **Machine Learning** and **Operations Research** by foreca
 ## Data
 ### Dataset
 
-The data for forecasting can be viewed [here](Data/demand_forecasting.csv). It contains 10,000 rows with columns such as `Product ID`, `Date`, `Sales Quantity`, `Seasonality Factors`. Similarly, the other data sets [inventory_monitoring.csv](Data/inventory_monitoring.csv) and [pricing_optimization.csv](Data/pricing_optimization.csv) also contain 10,000 rows providing information such as `Stockout Frequency`, `Reorder Point`, `Return Rate` and `Storage cost`.
+The `demand_forecasting.csv` dataset can be viewed [here](Data/demand_forecasting.csv). It contains 10,000 rows with columns such as `Product ID`, `Date`, `Sales Quantity`, `Seasonality Factors`. Similarly, the other data sets [inventory_monitoring.csv](Data/inventory_monitoring.csv) and [pricing_optimization.csv](Data/pricing_optimization.csv) also contain 10,000 rows providing information such as `Stockout Frequency`, `Reorder Point`, `Return Rate` and `Storage cost`.
 
 To have a better granularity of the data for forecasting and optimizing, the `Date` column was grouped into weeks using the start date of each week. The columns `Seasonality Factors` and `External Factors` contained the value `'None'`, which was interpreted as an empty cell when importing. This was corrected by explicitly filling in missing entries with the string `'None'`.
 
